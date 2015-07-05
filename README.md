@@ -2,11 +2,14 @@
 
 ## Introduction
 
-Ubuntu 14.04 Vagrant Virtual Machine with the necessary services for the web developer bootcamp. You need to install Vagrant and VirtualBox to use it as is.
+Ubuntu 14.04 Vagrant Virtual Machine with the necessary services for the web developer bootcamp.
+You need to install Vagrant and VirtualBox to use it as is.
 
-32 bits vagrant: vagrant up bootcamp32
+32 bit VirtualBox: https://mega.co.nz/#!RFRm2JzZ!xHQp4D507xS7oel5YnjmfH2bgqEDY8OZY9mJdWDLmVk
 
-64 bits vagrant: vagrant up bootcamp64
+32 bit vagrant: vagrant up bootcamp32
+
+64 bit vagrant: vagrant up bootcamp64
 
 User: root
 
