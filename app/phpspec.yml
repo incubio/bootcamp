@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Bootcamp
+        psr4_prefix: Bootcamp
+        src_path: app

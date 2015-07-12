@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
 	config.vm.network :forwarded_port, guest: 80, host: 8080, auto_correct: true
 
 	#Share project directories with apache
-	#config.vm.synced_folder "app",  "/var/www/app/", :owner => 'www-data', :group => 'www-data', :mount_options => [ 'dmode=755', 'fmode=755' ]
+	config.vm.synced_folder "app",  "/var/www/app/", :owner => 'www-data', :group => 'www-data', :mount_options => [ 'dmode=755', 'fmode=755' ]
 
 
 	#Tasks on each boot
