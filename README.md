@@ -7,6 +7,8 @@ You need to install Vagrant and VirtualBox to use it as is.
 
 32 bit VirtualBox: https://mega.co.nz/#!RFRm2JzZ!xHQp4D507xS7oel5YnjmfH2bgqEDY8OZY9mJdWDLmVk
 
+64 bit VirtualBox: https://mega.co.nz/#!5QpEkbSL!myGUTpxx4Z9U4Ltj51x585FJWMPkAWK17hFsbaQ9igA
+
 32 bit vagrant: vagrant up bootcamp32
 
 64 bit vagrant: vagrant up bootcamp64
