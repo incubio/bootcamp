@@ -2,7 +2,13 @@
 
 namespace Bootcamp\Http\Controllers;
 
+use Bootcamp\Http\Controllers\Auth\AuthController;
 use Illuminate\Http\Request;
+
+use Illuminate\Support\Facades\DB;
+use LRedis;
+
+use Bootcamp\Item as ItemModel;
 
 use Bootcamp\Http\Requests;
 use Bootcamp\Http\Controllers\Controller;
@@ -56,7 +62,14 @@ class Item extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+	    $item = new ItemModel();
+
+
+	    $item->test = 'b';
+
+	    $item->save();
+
     }
 
     /**

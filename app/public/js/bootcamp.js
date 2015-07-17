@@ -9,7 +9,7 @@ angular.module( 'bootcamp' ).factory(
 
 			var resource = {};
 
-			var item = $resource(  '/item', {}, {
+			var item = $resource( '/item', {}, {
 
 				get : { method : 'GET', isArray : true }
 			} );
